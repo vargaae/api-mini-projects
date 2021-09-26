@@ -1,0 +1,14 @@
+<!-- <cdk-virtual-scroll-viewport itemSize="100"> -->
+
+<div *ngFor="let follower of followers" class="media">
+  <div class="media-left">
+      <a href="#">
+          <img src="{{ follower.avatar_url }}" class="avatar media-object" alt="...">
+      </a>
+  </div>
+    <div class="media-body">
+      <h4 class="media-heading"><a [routerLink]="['/followers', follower.id, follower.login]">{{ follower.login }}</a></h4>
+      <a href="follower.html_url">{{ follower.html_url }}</a>
+    </div>
+</div>
+<!-- </cdk-virtual-scroll-viewport> -->

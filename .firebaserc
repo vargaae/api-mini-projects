@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "deploy-project-app-37138": {
+      "hosting": {
+        "api-project": [
+          "deploy-project-app-37138"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "deploy-project-app-37138"
+  }
+}

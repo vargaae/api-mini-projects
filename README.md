@@ -12,11 +12,7 @@ GET: Images and many attributes from Pixabay's Server
 
 GET: Profile data - Usernames, Repository
     addresses, Avatar Images
-
-## PIXABAY API Calling
-
-GET: Images and many attributes from Pixabay's Server
-    
+  
 ## TODO App with Rest API (Angular, Node, Typescript and MongoDB)
 
 GET-POST-PUT-PATCH-DELETE: TODO APP with built REST API with Node.js using ExpressJS, MongoDB
